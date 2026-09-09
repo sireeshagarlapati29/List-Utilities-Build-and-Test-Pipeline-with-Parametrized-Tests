@@ -4,6 +4,7 @@ from app import find_max, count_evens
     ([1, 5, 3], 5),
     ([-10, -2, -7], -2),
     ([4, 4, 4], 4),
+    ([1, 5, 3], 999),
 ])
 def test_find_max(numbers, expected):
     assert find_max(numbers) == expected
